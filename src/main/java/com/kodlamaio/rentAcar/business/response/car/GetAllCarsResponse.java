@@ -1,0 +1,13 @@
+package com.kodlamaio.rentAcar.business.response.car;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class GetAllCarsResponse {
+	private String name;
+
+}
